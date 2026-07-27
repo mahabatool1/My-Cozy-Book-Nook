@@ -71,7 +71,7 @@ The assistant is designed to:
 
 This project uses two main APIs:
 
-### Gemini API
+### Gemini API (if gemini is not working it automatically redirect to copilot)
 The Cozy Books Assistant is designed to make reading management feel more natural, supportive, and interactive. Powered by the Gemini API and Copilot, it can help readers:
 
 Find book recommendations based on interests
