@@ -98,6 +98,7 @@ This makes it easy to add books to a reading log without manually entering core 
 ### Frontend
 - React
 - JavaScript
+- Typecript
 - HTML5
 - CSS3
 
@@ -107,6 +108,7 @@ This makes it easy to add books to a reading log without manually entering core 
 
 ### APIs
 - Gemini API
+- Copilot
 - Google Books API
 
 ### Authentication / Data
@@ -152,7 +154,7 @@ BS Computer Science
 
 ---
 📄 License
-This project was developed for educational and portfolio purposes.
 
+This project was developed for educational and portfolio purposes.
 © 2026 Maha Batool. All rights reserved.
 
