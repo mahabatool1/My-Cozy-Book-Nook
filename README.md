@@ -135,6 +135,8 @@ This makes it easy to add books to a reading log without manually entering core 
 - Readers looking for a calm and aesthetic digital library
 - People who want AI support for discovering books
 
+---
+
 ## 🚀 Future Improvements
 - Personalized book recommendations based on reading history
 - User profile customization
@@ -150,9 +152,11 @@ This makes it easy to add books to a reading log without manually entering core 
 ## 👨‍💻 Developer
 
 Maha Batool
+
 BS Computer Science 
 
 ---
+
 📄 License
 
 This project was developed for educational and portfolio purposes.
