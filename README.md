@@ -98,7 +98,6 @@ This makes it easy to add books to a reading log without manually entering core 
 ### Frontend
 - React
 - JavaScript
-- Typecript
 - HTML5
 - CSS3
 
