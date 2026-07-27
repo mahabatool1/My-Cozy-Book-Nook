@@ -1,6 +1,6 @@
 # My Cozy Book Nook
 
-My Cozy Book Nook is a cozy digital reading web application designed to help readers build their personal library, discover books, and continue their reading journey in a calm and aesthetically pleasing environment. The platform combines a minimalist interface with smart book-related features, using the Gemini API and Google Books API to enhance recommendations, search, and user interaction.
+My Cozy Book Nook is a cozy digital reading web application designed to help readers build their personal library, discover books, and continue their reading journey in a calm and aesthetically pleasing environment. The platform combines a minimalist interface with smart book-related features, using the Gemini API and Google Books API to enhance recommendations,soundtrack where user enter there playlist, and user interaction.
 
 The project aims to make reading more organized, enjoyable, and interactive by giving users one relaxing digital space to explore books, manage their collection, and stay inspired.
 
@@ -8,7 +8,7 @@ The project aims to make reading more organized, enjoyable, and interactive by g
 
 ## 📌 Overview
 
-My Cozy Book Nook is built for readers who want a simple and beautiful way to manage their books and discover new ones. It offers a personal library experience with cozy visuals, reading-focused tools, and AI-powered assistance to help users interact with their collection more naturally.
+My Cozy Book Nook is built for readers who want a simple and beautiful way to manage their books and discover new ones. It offers a personal library experience with cozy visuals, Reading ambience and playlist support , reading-focused tools, and AI-powered assistance to help users interact with their collection more naturally.
 
 ---
 
@@ -21,6 +21,7 @@ My Cozy Book Nook addresses these challenges by providing:
 - A personal digital library
 - Easy book discovery through the Google Books API, just search the book and add it to your log directly with author name and book cover
 - Smart reading guidance through the Pagewise Assisstant via Gemini API and copilot
+- Reading ambience and playlist support
 - A simple and cozy reading-focused interface
 - Book organization, favorites, and notes in one place
 - Cross-device reading continuity through sign-in
@@ -35,22 +36,22 @@ My Cozy Book Nook addresses these challenges by providing:
 ---
 
 ## ✨ Features
-
 - 📚 Personal digital library
 - 🔐 Sign in with Google
-- 🔎 Search and discover books
-- 📖 Add books to your collection
-- 🖼 Add or update custom book covers
-- ⭐ Save favorite books
+- ➕ Add new books to your library
+- 🖼 Add or update custom book pictures
+- ⭐ Curate favorite books
 - ✅ Mark books as finished
-- 📝 Log reading sessions and reflections
+- 📝 Log reading sessions
 - 🔥 Reading streak tracking
-- 🏷 Organize books with genres and cozy tags
-- 🤖 AI-powered Cozy Books Assistant
-- 💡 Smart reading recommendations
+- 💭 Book notes and reflections
+- 🏷 Coziness tags and genres
+- 🤖 Cozy Books Assistant
+- 🎯 Reading recommendations
+- 🎵 Reading ambience and playlist support
+- 📱 Minimal and responsive reading interface
 - 🌍 Book information fetched from Google Books API
-- ✨ Clean, cozy, and responsive user interface
-
+- 🎨 Warm, cozy visual design
 
 ---
 
