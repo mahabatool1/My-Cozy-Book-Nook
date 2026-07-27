@@ -1,0 +1,6 @@
+{
+  "name": "My Cozy Book Nook",
+  "description": "A beautiful, cozy reading tracker and personal reading journal with an AI companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

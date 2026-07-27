@@ -1,0 +1,56 @@
+{
+  "entities": {
+    "Book": {
+      "title": "Book",
+      "description": "A book in the user's cozy library",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string", "description": "The UID of the user who owns the book" },
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "totalPages": { "type": "number" },
+        "currentPage": { "type": "number" },
+        "status": { "type": "string", "enum": ["reading", "to_read", "finished"] },
+        "favorite": { "type": "boolean" },
+        "rating": { "type": "number" },
+        "notes": { "type": "string" },
+        "coverColor": { "type": "string" },
+        "coverUrl": { "type": "string" },
+        "coverImage": { "type": "string" },
+        "startedDate": { "type": "string" },
+        "finishedDate": { "type": "string" },
+        "tags": {
+          "type": "array",
+          "description": "User-defined tags for custom categorizations/filtering"
+        }
+      },
+      "required": ["id", "userId", "title", "author", "totalPages", "currentPage", "status", "favorite"]
+    },
+    "ReadingActivity": {
+      "title": "ReadingActivity",
+      "description": "A reading session logged by the user with the timer",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string", "description": "The UID of the user who logged this session" },
+        "bookId": { "type": "string" },
+        "bookTitle": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "timestamp": { "type": "string" },
+        "dateStr": { "type": "string", "description": "YYYY-MM-DD date representation in user timezone" }
+      },
+      "required": ["id", "userId", "durationSeconds", "timestamp", "dateStr"]
+    }
+  },
+  "firestore": {
+    "users/{userId}/books/{bookId}": {
+      "schema": { "$ref": "Book" },
+      "description": "User's personal library of books"
+    },
+    "users/{userId}/readingActivity/{activityId}": {
+      "schema": { "$ref": "ReadingActivity" },
+      "description": "User's reading timer sessions to compute daily streaks"
+    }
+  }
+}
