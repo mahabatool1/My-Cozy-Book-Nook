@@ -126,6 +126,18 @@ This makes it easy to add books to a reading log without manually entering core 
 - Google Cloud Run
 
 ---
+## 📷 Screenshots
+
+<img width="1701" height="918" alt="image" src="https://github.com/user-attachments/assets/e58efe04-4626-4127-a1b3-2d1a3984eca9" />
+
+<img width="1696" height="921" alt="image" src="https://github.com/user-attachments/assets/accc54e1-aea8-47e3-aba5-bddaa688f391" />
+
+<img width="1704" height="923" alt="image" src="https://github.com/user-attachments/assets/023cf720-84da-4d38-a856-4319a04c07af" />
+
+
+
+
+
 
 ## 👥 Target Users
 - Book lovers
