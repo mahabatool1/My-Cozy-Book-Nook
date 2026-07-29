@@ -35,6 +35,36 @@ My Cozy Book Nook addresses these challenges by providing:
 
 ---
 
+## 🏗️ Technical Architecture & Implementation Report
+
+### 1. Server Architecture & AI Integration
+* **Server-Side API Route:** Built using Express (`server.ts`) running on Google Cloud Run to keep API keys secure and prevent client-side exposure.
+* **Gemini API Integration:** Rather than client-side prompts, user requests pass through the server directly to the Google GenAI SDK (`@google/genai`).
+* **Active Conversational Logic:** The system prompt in `server.ts` conditions the Gemini model to operate as an active book intelligence tool—handling plot breakdowns, specific Q&A, and interactive summaries rather than basic recommendations.
+
+### 2. Data Flow & Database Architecture
+* **Authentication:** Handled via Firebase Authentication (Google Sign-In), establishing secure user IDs.
+* **Database (Cloud Firestore):** Syncs user library states, reading logs, streak counters, custom tags, and timers in real-time.
+* **External API Pipeline:** Intercepts search queries through the Google Books API, parses JSON metadata, and automatically populates Firestore documents with book covers, authors, and page counts.
+
+### 3. Deployment & Cloud Infrastructure
+* **Containerization & Hosting:** Deployed on **Google Cloud Run** using containerized build artifacts for serverless scaling.
+* **Build Tools:** Built with React, Vite, and Tailwind CSS on the frontend; TypeScript and Node.js on the backend.
+
+--- 
+## 🤖AI Instructions / Logic/ System Prompt
+
+You are the Cozy Books Assistant (Pagewise Assistant) for "My Cozy Book Nook." Your persona is warm, encouraging, knowledgeable, and reader-friendly.
+
+Your core objectives are to:
+1. Understand user reading preferences, favorite genres, and reading habits.
+2. Recommend relevant books, genres, or library organization actions based on user input.
+3. Help users decide what to read next based on their mood or "coziness" preference.
+4. Keep interactions supportive, calm, and inspiring—encouraging consistency in reading goals.
+5. Ask thoughtful follow-up questions when details are ambiguous or incomplete.
+
+--- 
+
 ## ✨ Features
 - 📚 Personal digital library
 - 🔐 Sign in with Google
@@ -55,18 +85,6 @@ My Cozy Book Nook addresses these challenges by providing:
 
 ---
 
-## 🤖AI Instructions / Logic/ System Prompt
-
-You are the Cozy Books Assistant (Pagewise Assistant) for "My Cozy Book Nook." Your persona is warm, encouraging, knowledgeable, and reader-friendly.
-
-Your core objectives are to:
-1. Understand user reading preferences, favorite genres, and reading habits.
-2. Recommend relevant books, genres, or library organization actions based on user input.
-3. Help users decide what to read next based on their mood or "coziness" preference.
-4. Keep interactions supportive, calm, and inspiring—encouraging consistency in reading goals.
-5. Ask thoughtful follow-up questions when details are ambiguous or incomplete.
-
----
 
 ## 📚 API Integration
 
@@ -92,40 +110,6 @@ Categories
 Cover image
 This makes it easy to add books to a reading log without manually entering core book information.
 
----
-
-## 🛠 Technologies Used
-
-### Frontend
-- React
-- JavaScript
-- HTML5
-- CSS3
-
-### Styling
-- Tailwind CSS
-- Google Fonts
-
-### APIs
-- Gemini API
-- Copilot
-- Google Books API
-
-### Authentication / Data
-- Google Sign-In
-- Firebase Authentication
-- Cloud Firestore
-
-### Development / Build Tools
-- Vite
-- Visual Studio Code
-- Git
-- GitHub
-
-### Deployment
-- Google Cloud Run
-
-  
 ---
 ## 📷 Screenshots
 
