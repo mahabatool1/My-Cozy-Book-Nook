@@ -84,33 +84,6 @@ Your core objectives are to:
 - 🎨 Warm, cozy visual design
 
 ---
-
-
-## 📚 API Integration
-
-This project uses two main APIs:
-
-### Gemini API (if gemini is not working it automatically redirect to copilot)
-The Cozy Books Assistant is designed to make reading management feel more natural, supportive, and interactive. Powered by the Gemini API and Copilot, it can help readers:
-
-Find book recommendations based on interests
-Decide what to read next
-Navigate library-related actions
-Ask book-related questions
-Stay encouraged and engaged with reading goals
-The assistant follows a warm, reader-friendly interaction style. It is intended to understand requests related to books, genres, favourites, and reading activity; recommend relevant reading actions or books; and ask for more details whenever needed.
-
-### Google Books API
-Book discovery is powered by the Google Books API. When a reader searches for a title, the application can retrieve available book details, including:
-
-Title
-Author
-Description
-Categories
-Cover image
-This makes it easy to add books to a reading log without manually entering core book information.
-
----
 ## 📷 Screenshots
 
 <img width="1701" height="918" alt="image" src="https://github.com/user-attachments/assets/e58efe04-4626-4127-a1b3-2d1a3984eca9" />
