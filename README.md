@@ -76,12 +76,12 @@ My Cozy Book Nook addresses these challenges by providing:
 
 The Pagewise Assistant is an interactive, context-aware reading companion embedded into My Cozy Book Nook. Rather than relying on simple client-side scripts, the AI feature is architected through a secure backend route to handle complex conversational tasks around books and reading habits.
 
-## What the AI Feature Does
+What the AI Feature Does
 Active Book Intelligence: Goes beyond basic recommendations by providing deep plot breakdowns, structural summaries, character analyses, and context-specific answers for any requested book.
 
-## Reading Companion & Q&A: Allows users to ask specific questions while reading (e.g., "Can you summarize chapter 3 without spoilers?" or "What is the main theme of this novel?").
+Reading Companion & Q&A: Allows users to ask specific questions while reading (e.g., "Can you summarize chapter 3 without spoilers?" or "What is the main theme of this novel?").
 
-## Interactive Guidance: Assists users with library organization, goal setting, and deciding what to read next based on their current mood or reading streak data.
+Interactive Guidance: Assists users with library organization, goal setting, and deciding what to read next based on their current mood or reading streak data.
 
 ## System Prompt
 
