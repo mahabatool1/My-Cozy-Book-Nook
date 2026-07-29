@@ -1,52 +1,70 @@
-# 📖 My Cozy Book Nook
+# My Cozy Book Nook
 
-> A calm, aesthetically pleasing digital sanctuary designed to help book lovers track their reading journey, curate personal libraries, listen to ambient playlists, and discover their next favorite read.
+My Cozy Book Nook is a cozy digital reading web application designed to help readers build their personal library, discover books, and continue their reading journey in a calm and aesthetically pleasing environment. The platform combines a minimalist interface with smart book-related features, using the Gemini API and Google Books API to enhance recommendations,soundtrack where user enter there playlist, and user interaction.
 
----
-
-## 📌 Project Report & Overview
-
-### a. About the App & Problem Solved
-**My Cozy Book Nook** is a web application designed for readers, students, casual book lovers, and trackers who want a unified, clutter-free space for their reading habits.
-
-* **The Problem:** Many readers rely on fragmented methods to manage their books—scattered notes apps, complex spreadsheets, separate playlist tools for reading ambience, and disjointed search tools. This creates friction and takes away from the relaxing nature of reading.
-* **The Solution:** My Cozy Book Nook brings everything into one cozy ecosystem. It combines book tracking, Google Books API integration, ambient playlist support, streak management, and AI guidance into a warm, aesthetic interface.
-
-### b. Live Deployed URL
-🔗 **Live Application:** [https://my-cozy-book-nook-970617132166.us-west1.run.app/](https://my-cozy-book-nook-970617132166.us-west1.run.app/)
+The project aims to make reading more organized, enjoyable, and interactive by giving users one relaxing digital space to explore books, manage their collection, and stay inspired.
 
 ---
 
-## ✨ Features List
+## 📌 Overview
 
-* 📚 **Personal Digital Library:** Create, manage, and curate your personal collection.
-* 🔐 **Google Authentication:** Secure cross-device sign-in powered by Firebase.
-* 🔍 **Seamless Book Search:** Instant fetch from Google Books API to autofill covers, authors, descriptions, and metadata.
-* ⭐ **Favorites & Shelf Status:** Mark books as favorites, currently reading, or finished.
-* 🔥 **Reading Streak Tracker:** Log reading sessions to build and maintain habits.
-* 📝 **Notes & Reflections:** Save personal thoughts, quotes, and reflections per book.
-* 🏷 **Coziness Tags & Genres:** Organize books using custom tags and cozy filters.
-* 🎵 **Reading Ambience & Playlists:** Embedded playlist support for immersive reading sessions.
-* 🤖 **Pagewise AI Assistant:** Intelligent chat interface offering personalized reading suggestions and guidance.
-* 📱 **Responsive Cozy UI:** Designed with warm, relaxing visuals using Tailwind CSS and Vite.
+My Cozy Book Nook is built for readers who want a simple and beautiful way to manage their books and discover new ones. It offers a personal library experience with cozy visuals, Reading ambience and playlist support , reading-focused tools, and AI-powered assistance to help users interact with their collection more naturally.
 
 ---
 
-## 🤖 AI Feature & System Prompt
+## 🎯 Problem Statement
 
-The **Cozy Books Assistant (Pagewise Assistant)** acts as an empathetic reading companion. Powered primarily by the **Gemini API** (with automatic fallback to Copilot), it offers tailored recommendations, helps navigate library organization, and keeps readers motivated.
+Many readers use separate apps or manual methods to search for books, track their reading, save favorites, and write reflections. This often makes the reading experience feel scattered and less engaging.
 
-### System Prompt / Core Logic
+My Cozy Book Nook addresses these challenges by providing:
 
-You are the Cozy Books Assistant (Pagewise Assistant) for "My Cozy Book Nook." Your persona is warm, encouraging, knowledgeable, and reader-friendly.
+- A personal digital library
+- Easy book discovery through the Google Books API, just search the book and add it to your log directly with author name and book cover
+- Smart reading guidance through the Pagewise Assisstant via Gemini API and copilot
+- Reading ambience and playlist support
+- A simple and cozy reading-focused interface
+- Book organization, favorites, and notes in one place
+- Cross-device reading continuity through sign-in
 
-Your core objectives are to:
-1. Understand user reading preferences, favorite genres, and reading habits.
-2. Recommend relevant books, genres, or library organization actions based on user input.
-3. Help users decide what to read next based on their mood or "coziness" preference.
-4. Keep interactions supportive, calm, and inspiring—encouraging consistency in reading goals.
-5. Ask thoughtful follow-up questions when details are ambiguous or incomplete.
+---
 
+## 🌐 Live Demo
+
+**Website:**  
+[https://my-cozy-book-nook-970617132166.us-west1.run.app/](https://my-cozy-book-nook-970617132166.us-west1.run.app/)
+
+---
+
+## ✨ Features
+- 📚 Personal digital library
+- 🔐 Sign in with Google
+- ➕ Add new books to your library
+- 🖼 Add or update custom book pictures
+- ⭐ Curate favorite books
+- ✅ Mark books as finished
+- 📝 Log reading sessions
+- 🔥 Reading streak tracking
+- 💭 Book notes and reflections
+- 🏷 Coziness tags and genres
+- 🤖 Cozy Books Assistant
+- 🎯 Reading recommendations
+- 🎵 Reading ambience and playlist support
+- 📱 Minimal and responsive reading interface
+- 🌍 Book information fetched from Google Books API
+- 🎨 Warm, cozy visual design
+
+---
+
+## 🤖AI Instructions / Logic/ System Prompt
+
+The assistant is designed to:
+
+- Understand user reading-related requests
+- Identify keywords related to books, genres, favorites, and reading activity
+- Recommend suitable books or reading actions
+- Encourage users to continue their reading journey
+- Respond politely in a warm and reader-friendly style
+- Ask for more details when necessary
 
 ---
 
@@ -78,15 +96,36 @@ This makes it easy to add books to a reading log without manually entering core 
 
 ## 🛠 Technologies Used
 
-Frontend Framework,"React.js, Vite"
-Languages,"JavaScript (ES6+), HTML5, CSS3"
-Styling,"Tailwind CSS, Google Fonts"
-AI Models & Assistants,"Google Gemini API, Copilot (Fallback)"
-External APIs,Google Books API
-Authentication & Database,"Firebase Authentication, Cloud Firestore"
-Version Control,"Git, GitHub"
-Cloud Hosting / Deployment,Google Cloud Run
+### Frontend
+- React
+- JavaScript
+- HTML5
+- CSS3
 
+### Styling
+- Tailwind CSS
+- Google Fonts
+
+### APIs
+- Gemini API
+- Copilot
+- Google Books API
+
+### Authentication / Data
+- Google Sign-In
+- Firebase Authentication
+- Cloud Firestore
+
+### Development / Build Tools
+- Vite
+- Visual Studio Code
+- Git
+- GitHub
+
+### Deployment
+- Google Cloud Run
+
+  
 ---
 ## 📷 Screenshots
 
