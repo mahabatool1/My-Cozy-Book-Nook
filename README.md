@@ -28,6 +28,26 @@ My Cozy Book Nook addresses these challenges by providing:
 
 ---
 
+## ✨ Features
+- 📚 Personal digital library
+- 🔐 Sign in with Google
+- ➕ Add new books to your library
+- 🖼 Add or update custom book pictures
+- ⭐ Curate favorite books
+- ✅ Mark books as finished
+- 📝 Log reading sessions
+- 🔥 Reading streak tracking
+- 💭 Book notes and reflections
+- 🏷 Coziness tags and genres
+- 🤖 Cozy Books Assistant
+- 🎯 Reading recommendations
+- 🎵 Reading ambience and playlist support
+- 📱 Minimal and responsive reading interface
+- 🌍 Book information fetched from Google Books API
+- 🎨 Warm, cozy visual design
+
+---
+
 ## 🌐 Live Demo
 
 **Website:**  
@@ -52,8 +72,18 @@ My Cozy Book Nook addresses these challenges by providing:
 * **Build Tools:** Built with React, Vite, and Tailwind CSS on the frontend; TypeScript and Node.js on the backend.
 
 --- 
-## 🤖AI Instructions / Logic/ System Prompt
+## 🤖AI Features and System Prompt
 
+The Pagewise Assistant is an interactive, context-aware reading companion embedded into My Cozy Book Nook. Rather than relying on simple client-side scripts, the AI feature is architected through a secure backend route to handle complex conversational tasks around books and reading habits.
+
+###What the AI Feature Does
+Active Book Intelligence: Goes beyond basic recommendations by providing deep plot breakdowns, structural summaries, character analyses, and context-specific answers for any requested book.
+
+Reading Companion & Q&A: Allows users to ask specific questions while reading (e.g., "Can you summarize chapter 3 without spoilers?" or "What is the main theme of this novel?").
+
+Interactive Guidance: Assists users with library organization, goal setting, and deciding what to read next based on their current mood or reading streak data.
+
+###System Prompt
 You are the Cozy Books Assistant (Pagewise Assistant) for "My Cozy Book Nook." Your persona is warm, encouraging, knowledgeable, and reader-friendly.
 
 Your core objectives are to:
@@ -63,25 +93,6 @@ Your core objectives are to:
 4. Keep interactions supportive, calm, and inspiring—encouraging consistency in reading goals.
 5. Ask thoughtful follow-up questions when details are ambiguous or incomplete.
 
---- 
-
-## ✨ Features
-- 📚 Personal digital library
-- 🔐 Sign in with Google
-- ➕ Add new books to your library
-- 🖼 Add or update custom book pictures
-- ⭐ Curate favorite books
-- ✅ Mark books as finished
-- 📝 Log reading sessions
-- 🔥 Reading streak tracking
-- 💭 Book notes and reflections
-- 🏷 Coziness tags and genres
-- 🤖 Cozy Books Assistant
-- 🎯 Reading recommendations
-- 🎵 Reading ambience and playlist support
-- 📱 Minimal and responsive reading interface
-- 🌍 Book information fetched from Google Books API
-- 🎨 Warm, cozy visual design
 
 ---
 ## 📷 Screenshots
