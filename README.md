@@ -55,7 +55,7 @@ My Cozy Book Nook addresses these challenges by providing:
 
 ---
 
-### AI Instructions / Logic
+## 🤖AI Instructions / Logic/ System Prompt
 
 The assistant is designed to:
 
